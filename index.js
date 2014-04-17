@@ -1,1 +1,1 @@
-module.exports = require('./lib/jsend');
+module.exports = require('./lib/jsendp');
