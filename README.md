@@ -76,7 +76,7 @@ The response body will look like this:
 In this example, a HTTP status code was supplied, so that response will have a `400 Bad Request` Status Code. This works like Express's [`res.send`](http://expressjs.com/4x/api.html#res.send).
 
 
-### `res.error([message|status], [message|obj], [obj])`
+### res.error([message|status], [message|obj], [obj])
 
 Sending errors is a little more complex, but here's everything you can do:
 
