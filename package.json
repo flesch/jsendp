@@ -1,19 +1,33 @@
 {
   "name": "jsendp",
-  "version": "1.0.1",
   "description": "JSend middleware (with JSON-P) for Connect and Express.",
-  "main": "index.js",
-  "author": "John Flesch",
-  "repository": "https://github.com/flesch/jsendp.git",
+  "version": "1.0.1",
+  "author": {
+    "name": "John Flesch",
+    "email": "john@fles.ch>",
+    "url": "https://fles.ch/"
+  },
+  "bugs": {
+    "url": "https://github.com/flesch/jsendp/issues"
+  },
+  "contributors": [
+    {
+      "name": "Kiko Beats",
+      "url": "https://github.com/Kikobeats"
+    }
+  ],
+  "dependencies": {},
+  "homepage": "https://github.com/flesch/jsendp#readme",
   "keywords": [
+    "api",
     "express",
     "jsend",
     "json",
     "jsonp",
     "rest",
-    "restful",
-    "api"
+    "restful"
   ],
   "license": "MIT",
-  "dependencies": {}
+  "main": "index.js",
+  "repository": "https://github.com/flesch/jsendp.git"
 }
