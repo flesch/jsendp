@@ -37,7 +37,8 @@
   "scripts": {
     "clean": "rm -rf node_modules",
     "lint": "standard",
-    "pretest": "npm run lint"
+    "pretest": "npm run lint",
+    "test": "echo 'no tests found'"
   },
   "license": "MIT"
 }
