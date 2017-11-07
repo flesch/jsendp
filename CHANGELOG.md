@@ -1,3 +1,11 @@
+<a name="2.0.0"></a>
+# 2.0.0 (2017-11-07)
+
+* Simplify interface ([cf02d93](https://github.com/flesch/jsendp/commit/cf02d93))
+* Update command ([4ea04f7](https://github.com/flesch/jsendp/commit/4ea04f7))
+
+
+
 <a name="1.2.0"></a>
 # 1.2.0 (2016-01-24)
 
