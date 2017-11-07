@@ -34,9 +34,13 @@
   "engines": {
     "node": ">= 0.10"
   },
+  "devDependencies": {
+    "standard": "latest",
+    "standard-markdown": "latest"
+  },
   "scripts": {
     "clean": "rm -rf node_modules",
-    "lint": "standard",
+    "lint": "standard-markdown && standard",
     "pretest": "npm run lint",
     "test": "echo 'no tests found'"
   },
