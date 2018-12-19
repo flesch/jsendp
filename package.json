@@ -2,7 +2,7 @@
   "name": "jsendp",
   "description": "JSend middleware (with JSON-P) for Connect and Express.",
   "homepage": "https://github.com/flesch/jsendp#readme",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "index.js",
   "author": {
     "email": "john@fles.ch",

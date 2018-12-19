@@ -1,3 +1,11 @@
+<a name="2.1.0"></a>
+# 2.1.0 (2018-12-19)
+
+* Meta tweaks ([0f8695f](https://github.com/flesch/jsendp/commit/0f8695f))
+* Pass rest of props ([7cfd19e](https://github.com/flesch/jsendp/commit/7cfd19e))
+
+
+
 <a name="2.0.0"></a>
 # 2.0.0 (2017-11-07)
 
