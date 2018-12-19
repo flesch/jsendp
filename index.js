@@ -1,24 +1,23 @@
 'use strict'
 
 function middleware (opts = {}) {
-  const {jsonp = true} = opts
+  const { jsonp = true } = opts
 
   return function (req, res, next) {
     const method = jsonp ? 'jsonp' : 'json'
 
-    function genericResponse ({status, defaultStatusCode}) {
-      return function ({statusCode = defaultStatusCode, data, message}) {
+    function genericResponse ({ status, defaultStatusCode }) {
+      return function ({ statusCode = defaultStatusCode, ...props }) {
         return res.status(statusCode)[method]({
           status,
-          data,
-          message
+          ...props
         })
       }
     }
 
-    res.success = genericResponse({status: 'success', defaultStatusCode: 200})
-    res.fail = genericResponse({status: 'fail', defaultStatusCode: 400})
-    res.error = genericResponse({status: 'error', defaultStatusCode: 500})
+    res.success = genericResponse({ status: 'success', defaultStatusCode: 200 })
+    res.fail = genericResponse({ status: 'fail', defaultStatusCode: 400 })
+    res.error = genericResponse({ status: 'error', defaultStatusCode: 500 })
 
     next()
   }
