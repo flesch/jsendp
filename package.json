@@ -1,6 +1,6 @@
 {
   "name": "jsendp",
-  "description": "JSend middleware (with JSON-P) for Connect and Express.",
+  "description": "JSend JSON response middleware with JSON-P support for Connect and Express APIs.",
   "homepage": "https://github.com/flesch/jsendp#readme",
   "version": "2.1.0",
   "main": "index.js",
@@ -24,12 +24,15 @@
   },
   "keywords": [
     "api",
+    "connect",
     "express",
     "jsend",
     "json",
     "jsonp",
+    "middleware",
+    "response",
     "rest",
-    "restful"
+    "status"
   ],
   "devDependencies": {
     "standard": "latest",
